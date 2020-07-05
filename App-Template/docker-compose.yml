@@ -23,7 +23,7 @@ services:
     command: >
       bash -c "bundle check || bundle install &&
       yarn install --check-files &&
-      bundle exec middleman server -p ${PORT:-3000}"
+      bundle exec middleman server -p 3000"
     ports:
       - "${PORT:-3000}:3000"
 
