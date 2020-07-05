@@ -3,8 +3,7 @@ require "readline"
 @app_path = "App"
 
 @arguments = [
-  '--no-bundler',
-  '--template=html5'
+  '--skip-bundle'
 ].join(' ')
 
 # Install middleman
