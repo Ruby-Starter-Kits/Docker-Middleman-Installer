@@ -1,6 +1,6 @@
 # Docker Middleman Installer
 
-A quick start for running [Middleman](https://middlemanapp.com/) with Docker.
+A quick start for running [Middleman](https://middlemanapp.com/) with Docker. You can see the files it'll generate in [Ruby-Starter-Kits/Docker-Middleman-Template](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Template).
 
 ## Usage
 
