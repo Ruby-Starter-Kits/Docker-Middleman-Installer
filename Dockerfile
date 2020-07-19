@@ -3,7 +3,7 @@ FROM ruby:2.7.1-alpine AS builder
 LABEL maintainer="Mike Rogers <me@mikerogers.io>"
 
 RUN apk add --no-cache \
-    build-base nodejs bash \
+    build-base nodejs rsync \
     git
 
 FROM builder as middleman-installer
