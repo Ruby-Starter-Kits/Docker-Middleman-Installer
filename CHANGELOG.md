@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Run bundle & yarn on template app builder [\#3](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
 - Using rsync to copy hidden files [\#2](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/2) ([MikeRogers0](https://github.com/MikeRogers0))
 
 
