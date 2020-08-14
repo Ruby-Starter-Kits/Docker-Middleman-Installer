@@ -1,18 +1,19 @@
 # Changelog
 
-## [Unreleased](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/tree/HEAD)
+## [Unreleased](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/tree/HEAD)
 
-[Full Changelog](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/compare/03fbeda3974aadbecaa62124c707a885b8206174...HEAD)
+[Full Changelog](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/compare/03fbeda3974aadbecaa62124c707a885b8206174...HEAD)
 
 **Implemented enhancements:**
 
-- Auto generating template repo from docker image [\#1](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/1) ([MikeRogers0](https://github.com/MikeRogers0))
+- Auto generating template repo from docker image [\#1](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/1) ([MikeRogers0](https://github.com/MikeRogers0))
 
 **Merged pull requests:**
 
-- feat: Encouraging using template app over docker to install [\#4](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
-- Run bundle & yarn on template app builder [\#3](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
-- Using rsync to copy hidden files [\#2](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/2) ([MikeRogers0](https://github.com/MikeRogers0))
+- Renaming repo to Docker-Middleman-Generator [\#5](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
+- feat: Encouraging using template app over docker to install [\#4](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/4) ([MikeRogers0](https://github.com/MikeRogers0))
+- Run bundle & yarn on template app builder [\#3](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/3) ([MikeRogers0](https://github.com/MikeRogers0))
+- Using rsync to copy hidden files [\#2](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/2) ([MikeRogers0](https://github.com/MikeRogers0))
 
 
 
