@@ -20,8 +20,8 @@ jobs:
         persist-credentials: false
     - uses: actions/checkout@v2
       with:
-        repository: 'Ruby-Starter-Kits/Docker-Middleman-Installer'
-        path: Docker-Middleman-Installer
+        repository: 'Ruby-Starter-Kits/Docker-Middleman-Generator'
+        path: Docker-Middleman-Generator
         persist-credentials: false
     - name: Set up Ruby 2.7
       uses: ruby/setup-ruby@v1
@@ -56,7 +56,7 @@ jobs:
     - name: Copy docker files
       run: |
         cd $GITHUB_WORKSPACE/App
-        rsync -a $GITHUB_WORKSPACE/Docker-Middleman-Installer/App-Template/ $GITHUB_WORKSPACE/App/
+        rsync -a $GITHUB_WORKSPACE/Docker-Middleman-Generator/App-Template/ $GITHUB_WORKSPACE/App/
         cp $GITHUB_WORKSPACE/App/.env.sample $GITHUB_WORKSPACE/App/.env
     - name: Pull docker image
       run: |
@@ -69,15 +69,15 @@ jobs:
         docker-compose build
     - name: Commit any new files
       run: |
-        cd $GITHUB_WORKSPACE/Docker-Middleman-Installer
-        DOCKER_MIDDLEMAN_INSTALLER_VERSION="Installer 0.1.0"
+        cd $GITHUB_WORKSPACE/Docker-Middleman-Generator
+        DOCKER_MIDDLEMAN_GENERATOR_VERSION="Generator 0.1.0"
         MIDDLEMAN_VERSION=`gem list | grep 'middleman ('`
 
         cd $GITHUB_WORKSPACE/App
         git config --local user.email "github-actions@example.com"
         git config --local user.name "GitHub Actions"
         git add .
-        git commit -am "$MIDDLEMAN_VERSION | $DOCKER_MIDDLEMAN_INSTALLER_VERSION" || echo "No changes to commit"
+        git commit -am "$MIDDLEMAN_VERSION | $DOCKER_MIDDLEMAN_GENERATOR_VERSION" || echo "No changes to commit"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
