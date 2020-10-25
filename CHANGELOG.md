@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Adding tmpfs reference [\#8](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
 - Removing requirement for .env file [\#7](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/7) ([MikeRogers0](https://github.com/MikeRogers0))
 - Bump satackey/action-docker-layer-caching from v0.0.5 to v0.0.8 [\#6](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Renaming repo to Docker-Middleman-Generator [\#5](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5) ([MikeRogers0](https://github.com/MikeRogers0))
