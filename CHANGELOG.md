@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Using action-docker-layer-caching v0 [\#12](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/12) ([MikeRogers0](https://github.com/MikeRogers0))
 - Fix: No longer trying to copy .env.example during build [\#11](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/11) ([MikeRogers0](https://github.com/MikeRogers0))
 - Bump satackey/action-docker-layer-caching from v0.0.8 to v0.0.10 [\#9](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Adding tmpfs reference [\#8](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/8) ([MikeRogers0](https://github.com/MikeRogers0))
