@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Setting branch reference when pushing [\#14](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/14) ([MikeRogers0](https://github.com/MikeRogers0))
 - Bumping to Ruby 2.7.2 [\#13](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/13) ([MikeRogers0](https://github.com/MikeRogers0))
 - Using action-docker-layer-caching v0 [\#12](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/12) ([MikeRogers0](https://github.com/MikeRogers0))
 - Fix: No longer trying to copy .env.example during build [\#11](https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/11) ([MikeRogers0](https://github.com/MikeRogers0))
